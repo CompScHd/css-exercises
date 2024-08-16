@@ -1,14 +1,19 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  border: 1px solid hsl(236, 86%, 39%);
+  display: flex;
+  justify-content:space-between;
 }
 
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
-  background: white;
+  background-color:   white;
   padding: 4px 32px;
+  /* border: 1px solid hsl(0, 76%, 39%); */
+  margin: auto;
 }
 
 ul {
@@ -20,6 +25,44 @@ a {
   font-size: 22px;
   background: white;
   padding: 8px;
-  /* this removes the line under the links */
+  /* this removes the line under the links*/
   text-decoration: none;
+  /* border: 1px solid hsla(128, 86%, 37%, 0.616); */
 }
+
+
+.left-links {
+  /* background-color: aliceblue; */
+  /* border: 1px solid hsla(14, 86%, 37%, 0.616); */
+}
+
+.left-links ul{
+  /* background-color: aliceblue; */
+  /* border: 1px solid hsla(283, 86%, 37%, 0.616); */
+  height: 100px ;
+  padding: 0;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+
+.left-links ul li{
+  /* background-color: aliceblue; */
+  /* border: 3px solid hsla(197, 86%, 37%, 0.616); */
+  margin: 0 2px;
+}
+
+.right-links  ul {
+  /* background-color: aliceblue; */
+  /* border: 1px solid hsla(283, 86%, 37%, 0.616); */
+  height: 100px ;
+  padding: 0;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+
