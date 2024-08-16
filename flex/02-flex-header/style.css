@@ -4,6 +4,7 @@
   border: 1px solid hsl(236, 86%, 39%);
   display: flex;
   justify-content:space-between;
+  min-width: 700px
 }
 
 .logo {
